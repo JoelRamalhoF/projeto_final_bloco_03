@@ -26,28 +26,28 @@ export default function Home() {
 
   return (
     <>
-      <section className="flex min-h-[520px] items-center bg-cyan-100 px-8">
-        <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-around gap-10 md:flex-row">
-          <div className="flex flex-col items-center gap-4 text-center md:items-start md:text-left">
-            <h1 className="text-5xl font-bold text-black">
+      <section className="flex min-h-[560px] items-center bg-cyan-100 px-4 pb-10 pt-28 sm:px-8 md:min-h-[520px] md:py-12">
+        <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-around gap-8 md:flex-row md:gap-10">
+          <div className="flex w-full flex-col items-center gap-4 text-center md:items-start md:text-left">
+            <h1 className="text-4xl font-bold text-[#172B4D] sm:text-5xl">
               Seja bem vinde!
             </h1>
 
-            <p className="text-xl text-black">
+            <p className="max-w-md text-lg text-black sm:text-xl">
               Aqui você encontra Medicamentos e Cosméticos!
             </p>
 
-            <div className="flex flex-wrap justify-center gap-3 md:justify-start">
+            <div className="flex flex-col items-center gap-3 sm:flex-row">
               <Link
                 to="/cadastrarproduto"
-                className="rounded bg-indigo-700 px-8 py-3 text-white hover:bg-indigo-800"
+                className="w-full rounded bg-indigo-700 px-8 py-3 text-center text-white hover:bg-indigo-800 sm:w-auto"
               >
                 Cadastrar Produto
               </Link>
 
               <Link
                 to="/sobre"
-                className="rounded border border-indigo-700 px-8 py-3 text-indigo-700 hover:bg-indigo-100"
+                className="w-full rounded border border-indigo-700 px-8 py-3 text-center text-indigo-700 hover:bg-indigo-100 sm:w-auto"
               >
                 Sobre Nós
               </Link>
@@ -57,14 +57,14 @@ export default function Home() {
           <img
             src="https://ik.imagekit.io/5eywr3ioq/FARMACIA%20PG/home.png"
             alt="Ilustração de uma farmacêutica no balcão"
-            className="w-80 md:w-96"
+            className="w-64 sm:w-80 md:w-96"
           />
         </div>
       </section>
 
-      <section className="bg-white px-8 py-12">
+      <section className="bg-white px-4 py-10 sm:px-8 md:py-12">
         <div className="mx-auto flex w-full max-w-7xl flex-col gap-8">
-          <h2 className="text-center text-3xl font-semibold text-slate-800">
+          <h2 className="text-center text-2xl font-semibold text-slate-800 sm:text-3xl">
             Nossos Produtos
           </h2>
 
