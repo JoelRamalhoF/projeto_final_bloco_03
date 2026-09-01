@@ -1,5 +1,5 @@
-import { Envelope } from '@phosphor-icons/react';
-import { Link } from 'react-router-dom';
+import { Envelope } from "@phosphor-icons/react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -14,12 +14,16 @@ export default function Footer() {
 
       <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 py-9 md:flex-row md:px-12">
         <div className="flex max-w-lg flex-col items-center gap-1.5 text-center md:items-start md:text-left">
-          <Link to="/" className="group text-xl font-black tracking-tight">
+          <Link
+            to="/home"
+            className="group flex items-center text-xl font-black tracking-tight"
+          >
             <img
               src="https://ik.imagekit.io/5eywr3ioq/FARMACIA%20PG/favicon.png"
               alt="Logo da Farmácia JRF"
               className="mr-2 h-10 w-10 rounded-full border border-[#2563EB]/50 bg-white/20 p-1 shadow-md backdrop-blur-sm"
             />
+
             <span className="bg-gradient-to-r from-[#74C2FF] via-[#48A9FF] to-[#B69CFF] bg-clip-text text-transparent transition-all group-hover:brightness-125">
               Farmácia
             </span>
@@ -34,7 +38,7 @@ export default function Footer() {
 
         <div className="flex shrink-0 flex-col items-center gap-3 text-xs md:items-end">
           <a
-            href="mailto:suporte@conectacrm.com"
+            href="mailto:suporte@farmaciajrf.com"
             className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-4 py-2 text-[#E9F3FF] shadow-lg backdrop-blur-md transition-all hover:-translate-y-0.5 hover:border-[#74C2FF]/60 hover:bg-white/20"
           >
             <Envelope size={16} className="text-[#74C2FF]" />
@@ -43,9 +47,9 @@ export default function Footer() {
           </a>
 
           <p className="text-[11px] text-[#8EACD1]">
-            © 2026{' '}
+            © 2026{" "}
             <span className="font-medium text-[#D8E9FF]">
-              Joel Ramalho Filho
+              Farmácia JRF
             </span>
             . Todos os direitos reservados.
           </p>
