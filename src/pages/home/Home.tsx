@@ -30,7 +30,7 @@ export default function Home() {
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-around gap-10 md:flex-row">
           <div className="flex flex-col items-center gap-4 text-center md:items-start md:text-left">
             <h1 className="text-5xl font-bold text-black">
-              Seja bem vindo!
+              Seja bem vinde!
             </h1>
 
             <p className="text-xl text-black">
