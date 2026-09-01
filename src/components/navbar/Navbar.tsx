@@ -52,6 +52,13 @@ export default function Navbar() {
           >
             Produtos
           </Link>
+
+          <Link
+            to="/sobre"
+            className="relative rounded-xl px-4 py-2 transition-all hover:bg-white/65 hover:text-[#2563EB]"
+          >
+            Sobre Nós
+          </Link>
         </div>
 
         <button
@@ -91,6 +98,14 @@ export default function Navbar() {
             onClick={() => setMenuAberto(false)}
           >
             Produtos
+          </Link>
+
+          <Link
+            to="/sobre"
+            className="rounded-xl px-4 py-3 transition-all hover:bg-white/75 hover:text-[#2563EB]"
+            onClick={() => setMenuAberto(false)}
+          >
+            Sobre Nós
           </Link>
         </div>
       )}
