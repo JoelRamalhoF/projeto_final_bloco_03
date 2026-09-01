@@ -77,19 +77,19 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="/oportunidades"
-            className="rounded-xl px-4 py-3 transition-all hover:bg-white/75 hover:text-[#2563EB]"
-            onClick={() => setMenuAberto(false)}
-          >
-            Cadastrar Categoria  
-          </Link>
-
-          <Link
-            to="/sobre"
+            to="/categorias"
             className="rounded-xl px-4 py-3 transition-all hover:bg-white/75 hover:text-[#2563EB]"
             onClick={() => setMenuAberto(false)}
           >
             Categorias
+          </Link>
+
+          <Link
+            to="/cadastrarcategoria"
+            className="rounded-xl px-4 py-3 transition-all hover:bg-white/75 hover:text-[#2563EB]"
+            onClick={() => setMenuAberto(false)}
+          >
+            Cadastrar Categoria
           </Link>
         </div>
       )}
