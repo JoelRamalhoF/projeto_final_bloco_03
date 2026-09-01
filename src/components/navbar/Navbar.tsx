@@ -47,10 +47,10 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="/cadastrarcategoria"
+            to="/produtos"
             className="relative rounded-xl px-4 py-2 transition-all hover:bg-white/65 hover:text-[#2563EB]"
           >
-            Cadastrar Categoria
+            Produtos
           </Link>
         </div>
 
@@ -86,11 +86,11 @@ export default function Navbar() {
           </Link>
 
           <Link
-            to="/cadastrarcategoria"
+            to="/produtos"
             className="rounded-xl px-4 py-3 transition-all hover:bg-white/75 hover:text-[#2563EB]"
             onClick={() => setMenuAberto(false)}
           >
-            Cadastrar Categoria
+            Produtos
           </Link>
         </div>
       )}
